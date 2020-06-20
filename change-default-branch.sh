@@ -1,8 +1,8 @@
 # set -e
 
-username=combinatorist
-repo=resume
-new_default_branch=main
+repo="${1}"
+username="${2}"
+new_default_branch="${3:=main}"
 
 git checkout master
 git branch -m master main
