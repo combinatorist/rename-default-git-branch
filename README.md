@@ -1,5 +1,6 @@
 Todo / Not handled (yet):
 - [ ] assumes a master branch already exists (and locally)
+- [ ] doesn't handle if you have a different default branch (do/don't want to change)
 - [ ] github api creds must be added each time
 - [ ] using messy human interface for git (switch to machine)
 - [ ] may need to be on new branch locally...
@@ -9,4 +10,5 @@ Todo / Not handled (yet):
 - [ ] speed (especially deleting remote branch is slow)
 - [ ] configure different name for new repos' first branch: https://stackoverflow.com/a/50880622/5555637
 - [ ] constraints about local save state before making changes?
-
+- [ ] doesn't work on other remote git servers (e.g. gitlab) than github
+- [ ] doesn't work on other OS's (e.g. windows)
