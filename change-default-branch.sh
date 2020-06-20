@@ -5,10 +5,10 @@ username="${2}"
 new_default_branch="${3:=main}"
 
 git checkout master
-git branch -m master main
-git checkout main
-git push origin main
-git push -u origin main
+git branch -m master "${new_default_branch}"
+git checkout "${new_default_branch}"
+git push origin "${new_default_branch}"
+git push -u origin "${new_default_branch}"
  
 curl -i -u $username --header "Content-Type: application/json" \
     https://api.github.com/repos/$username/$repo/branches

@@ -1,5 +1,4 @@
 Todo / Not handled (yet):
-- [ ] double check parameters are all parameterized!
 - [ ] assumes a master branch already exists (and locally)
 - [ ] github api creds must be added each time
 - [ ] using messy human interface for git (switch to machine)
