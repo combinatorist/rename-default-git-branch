@@ -4,6 +4,7 @@ repo="${1}"
 username="${2}"
 new_default_branch="${3:=main}"
 
+pushd "${repo}"
 git checkout master
 git branch -m master "${new_default_branch}"
 git checkout "${new_default_branch}"
@@ -18,3 +19,4 @@ curl -i -u $username --header "Content-Type: application/json" \
     https://api.github.com/repos/$username/$repo
 
 git push origin :master
+popd
