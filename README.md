@@ -19,8 +19,12 @@ However, once it's safer, I will provide the usage.
 
 ## Todo / Not handled (yet):
 - [ ] warning messages / report
+- [ ] breaks symbolic ref to remote HEAD
 - [ ] automated testing
 - [ ] currently messes up prompt
+- [ ] confused by runnning on an already converted repo
+- [ ] assumes running in parent directory of local repo
+- [ ] assumes local repo name match remote (on github)
 - [ ] assumes a master branch already exists (and locally)
 - [ ] doesn't handle if you have a different default branch (do/don't want to change)
 - [ ] github api creds must be added each time
