@@ -2,7 +2,7 @@
 
 repo="${1}"
 username="${2}"
-new_default_branch="${3:=main}"
+new_default_branch="${3:-main}"
 
 pushd "${repo}"
 git checkout master
