@@ -18,6 +18,7 @@ I'm purposely not providing a simple usage here because I'd rather you read and 
 However, once it's safer, I will provide the usage.
 
 ## Todo / Not handled (yet):
+- [ ] switch away from github's deprecated curl
 - [ ] warning messages / report
 - [ ] breaks symbolic ref to remote HEAD
 - [ ] automated testing
